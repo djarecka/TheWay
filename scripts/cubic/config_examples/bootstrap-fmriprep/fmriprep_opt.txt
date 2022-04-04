@@ -1,5 +1,7 @@
-    --n_cpus 1 \
-    --stop-on-first-crash \
+    --mem_mb 40000 \
+    --fs-subjects-dir /out/freesurfer/ \
+    --nprocs 16 \
+    --omp-nthreads 8 \
     --fs-license-file code/license.txt \
     --skip-bids-validation \
     --use-aroma \
